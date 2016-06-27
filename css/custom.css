@@ -1,0 +1,60 @@
+h1.display-4, #slogan.text-inverse {font-family: dynalight, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+#siteNameMenu{font-family: dynalight, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+#companyInfo, #contactInfo {font-family: dynalight, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3em;
+}
+/*FOOD MENU STYLES*/
+.menu {
+    list-style: none;
+    max-width: 390px;
+    min-width: 125px;
+    margin: 0 0 2em;
+    padding: 0;
+}
+
+.menu li {
+    clear: both;
+    margin: 0;
+    padding: 0 0 1.8em 0;
+    position: relative;
+    border-bottom: dotted 2px #999;
+    background: url(../images/diagonal.gif) repeat-x left bottom;
+    border: none;
+}
+
+.menu strong {
+    background: #fff;
+    padding: 0 10px 0 0;
+    font-weight: normal;
+    position: absolute;
+    bottom: -.3em;
+    left: 0;
+}
+
+.menu em {
+    background: #fff;
+    padding: 0 0 0 5px;
+    font: 110%/100% Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    bottom: -.2em;
+    right: 0;
+}
+
+.menu sup {
+    font-size: 60%;
+    color: #666;
+    margin-left: 3px;
+}
+/*END FOOD MENU STYLES*/

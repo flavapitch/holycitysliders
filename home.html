@@ -21,14 +21,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand p-y-1" href="#" id="siteNameMenu">Holy City Sliders</a>
+        <a class="navbar-brand p-y-1" href="#" src="images\holycitytopbar.png" id="siteNameMenu">Holy City Sliders</a>
       </div>
       <div class="navbar-collapse collapse" id="navbar-ex-collapse" aria-expanded="false" style="height: 0px;">
         <ul class="nav navbar-nav navbar-right">
-          <li id="sliders-home">
+          <li class="active" id="sliders-home">
             <a href="home.html">Home</a>
           </li>
-          <li class="active" id="our-menu">
+          <li id="our-menu">
             <a href="menu.html">Menu</a>
           </li>
           <li id="our-specials">
@@ -37,60 +37,79 @@
           <li id="our-services">
             <a href="services.html">Services</a>
           </li>
-          <li>
+          <li id="contact-info">
             <a href="#contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="bg-faded p-y-0 section">
-    <div class="container-fluid"></div>
-  </div>
-  <div class="bg-warning section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-4">Menu&nbsp;
-                            <small>&nbsp;Subtext for header</small>
-                        </h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="p-y-3 section" src="images\Bridge.jpg">
+  <div class="section section-opaque-dark text-xs-center" src="images\batterysunset.jpg">
     <div class="background-image" style="background-image : url('images/avenue-bar-and-eatery-burger.jpg')"></div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <h1 class="display-1 pi-draggable pi-item text-inverse"></h1>
+          <h1 class="text-inverse" id="slogan">Little Burgers. Lots of Flavor.</h1>
+          <img class="center-block img-fluid m-y-2" src="images\holycitysplash.png">
+          <a href="menu.html" class="active btn btn-lg btn-warning-outline m-y-lg" id="display-menu">MENU</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-warning p-y-3 section" src="images\batterysunset.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="display-4 p-y-2 text-inverse">About us</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem.</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="images\Turkey-Burger-Sliders-Main-pic.jpg" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-y-3 section section-opaque-dark text-inverse">
+    <div class="background-image" style="background-image : url('images/Bridge.jpg')"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="display-4 m-y-2 text-xs-center text-inverse">Specials</h1>
+        </div>
+      </div>
+      <div class="p-y-2 row">
+        <div class="col-lg-6">
+          <img src="http://v4.pingendo.com/assets/photos/food/photo-1.jpg" class="img-fluid img-thumbnail m-y">
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-lg-6   ">
+          <img src="http://v4.pingendo.com/assets/photos/food/photo-2.jpg" class="img-fluid img-thumbnail m-y">
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-y-3 section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
           <div class="card-deck-wrapper">
+            <h1 class="display-4 p-y-2 text-xs-center">On the Menu</h1>
             <div class="card-deck">
               <div class="card">
                 <img class="card-img-top img-fluid" src="images\sliderssmall.jpg" alt="Card image cap">
-                <div class="card-block ">
+                <div class="card-block">
                   <h4 class="card-title">Sliders</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
                     <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua&nbsp;Ut enim ad minim veniam, quis nostrud</p>
-                  <ul class="menu" draggable="true">
-                    <li>
-                      <strong>Slider 1</strong>
-                      <em>100
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                    <li>
-                      <strong>Slider 2</strong>
-                      <em>250
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                    <li>
-                      <strong>Slider 3</strong>
-                      <em>500
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                  </ul>
                   <p class="card-text">
                     <small class="text-muted">Last updated 3 mins ago</small>
                   </p>
@@ -102,26 +121,6 @@
                   <h4 class="card-title">Sides</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
                     <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua&nbsp;Ut enim ad minim veniam, quis nostrud</p>
-                  <ul class="menu" draggable="true">
-                    <li>
-                      <strong>Sides 1</strong>
-                      <em>100
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                    <li>
-                      <strong>Sides 2</strong>
-                      <em>250
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                    <li>
-                      <strong>Sides 3</strong>
-                      <em>500
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                  </ul>
                   <p class="card-text">
                     <small class="text-muted">Last updated 3 mins ago</small>
                   </p>
@@ -133,26 +132,6 @@
                   <h4 class="card-title">Drinks</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
                     <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua&nbsp;Ut enim ad minim veniam, quis nostrud</p>
-                  <ul class="menu" draggable="true">
-                    <li>
-                      <strong>Drink 1</strong>
-                      <em>100
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                    <li>
-                      <strong>Drink 2</strong>
-                      <em>250
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                    <li>
-                      <strong>Drink 3</strong>
-                      <em>500
-                                                    <sup>95</sup>
-                                                </em>
-                    </li>
-                  </ul>
                   <p class="card-text">
                     <small class="text-muted">Last updated 3 mins ago</small>
                   </p>
@@ -163,6 +142,38 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="bg-warning p-y-3 section section-opaque-dark text-inverse text-xs-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="display-4">Services</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fa fa-5x fa-fw fa-star m-y-3"></i>
+          <h1>Food Truck</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+            <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua&nbsp;Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fa fa-5x fa-fw fa-heart m-y-3"></i>
+          <h1>Catering</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+            <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua&nbsp;Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fa fa-5x fa-cloud fa-fw m-y-3"></i>
+          <h1>Special Orders</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+            <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua&nbsp;Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-faded p-y-0 section">
+    <div class="container-fluid"></div>
   </div>
   <div class="bg-faded p-y-3 section">
     <div class="container">
@@ -236,19 +247,19 @@
   <script type="text/javascript" src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
   <script>
     $('a[href*=#]:not([href=#])').click(function() {
-                                            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-                                                || location.hostname == this.hostname) {
-                                        
-                                                var target = $(this.hash);
-                                                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                                                   if (target.length) {
-                                                     $('html,body').animate({
-                                                         scrollTop: target.offset().top
-                                                    }, 1000);
-                                                    return false;
-                                                }
-                                            }
-                                        });
+                                                                            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                                                                                || location.hostname == this.hostname) {
+                                                                        
+                                                                                var target = $(this.hash);
+                                                                                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                                                                                   if (target.length) {
+                                                                                     $('html,body').animate({
+                                                                                         scrollTop: target.offset().top
+                                                                                    }, 1000);
+                                                                                    return false;
+                                                                                }
+                                                                            }
+                                                                        });
   </script>
 
 
