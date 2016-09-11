@@ -66,5 +66,6 @@ h1.display-4, #slogan.text-inverse {font-family: dynalight, sans-serif;
     font-size: 60%;
     color: #666;
     margin-left: 3px;
+    font-weight: 700;
 }
 /*END FOOD MENU STYLES*/
