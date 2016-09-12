@@ -75,6 +75,6 @@ h1.display-4, #slogan.text-inverse {font-family: dynalight, sans-serif;
 .card a:link {
     color:grey;
 }
-.card-title a:link {
+.card-title a:link p {
     color:grey;
 }
